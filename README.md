@@ -27,3 +27,4 @@ public sealed partial class MainWindow : Window
     }
 }
 ```
+The save data file is a WindowStateSaveData.json file created directly under the local folder for Packaged, and a WindowStateSaveData.json file created in the same folder as the exe file for UnPackaged. file created in the same folder as the exe file in the case of UnPackaged.
