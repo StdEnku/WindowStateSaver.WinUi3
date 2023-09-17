@@ -32,7 +32,7 @@ The save data file is a WindowStateSaveData.json file created directly under the
 ## Third-Party-Notices
 ### WindowsAppSdk
 
-[repository](https://github.com/microsoft/WindowsAppSDK/blob/main/LICENSE)
+[repository](https://github.com/microsoft/WindowsAppSDK/tree/main)
 
 ```text
 MIT License
