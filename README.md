@@ -16,14 +16,13 @@ MainWinodw.xaml.cs
 namespace MyApp;
 
 using Microsoft.UI.Xaml;
-using WindowStateSaver.WinUi3;
 
 public sealed partial class MainWindow : Window
 {
     public MainWindow()
     {
         InitializeComponent();
-        WindowStateSaver.RegisterAndLoad(this); // <- Add
+        WindowStateSaver.WinUi3.WindowStateSaver.RegisterAndLoad(this); // <- Add
     }
 }
 ```
